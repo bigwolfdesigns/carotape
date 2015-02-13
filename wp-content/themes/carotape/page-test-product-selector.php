@@ -26,10 +26,10 @@ $cats = get_categories();
 		<div class="searchform-params">
 			<div class="DropDownField">
 				<div class="searchform-param">
-					<label class="searchform-label">Adhesive</label>
+					<label class="searchform-label">Adhesion</label>
 					<span class="searchform-input-wrapper">
-						<select id="adhesive"></select>
-					</span>
+						<select id="adhesion"></select>
+					</span> 
 				</div>
 			</div>
 			<div class="DropDownField">
@@ -40,6 +40,9 @@ $cats = get_categories();
 					</span>
 				</div>
 			</div>
+		</div>
+		<div class="searchform-controls">
+			<input type="submit" name="search" value="Search" id="product-selector-search">
 		</div>
 	</main><!-- #main -->
 </div><!-- #primary -->
